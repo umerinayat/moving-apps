@@ -15,9 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
+Route::get('/convert-webpage-content-to-full-image-by-using-webpage-url', function() {
+    return view('welcome');
+});
 
 Route::post('/webpage-to-image', [BrowsershotController::class, 'generateImageFromWebUrl']);
 Route::get('/download/{fileName}', [BrowsershotController::class, 'download']);

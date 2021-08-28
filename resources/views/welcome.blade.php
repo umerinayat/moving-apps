@@ -106,7 +106,7 @@
 
         <div class="row text-center mt-5">
             <div class="col">
-                <p class="mt-5 mb-3 text-muted">&copy; {{date('Y')}} All Rights Reserved movingstreams.com </p>
+                <p class="mt-5 mb-3 text-muted">&copy; {{date('Y')}} All Rights Reserved <a href="http://movingstreams.com">movingstreams.com</a> </p>
             </div>
         </div>
         
@@ -156,8 +156,6 @@
             }).catch(function(e) {
                 spinner.style.display = 'none';
                 convertBtn.removeAttribute('disabled');
-
-
             });
 
 
