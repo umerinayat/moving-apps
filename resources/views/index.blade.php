@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon-16x16.png') }}">
@@ -18,6 +18,19 @@
     <meta name="keywords" content="webpage to image, png, jpeg, image processing, convert files, pdf, word, ms word, office, water mark, overlay, image, url, processing, ppt, doc, power point, ai, machine learning">
 
     <title>Moving Streams - Tool Kit | Convert Web Page Content to Full Image</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-56G7KJLN1D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-56G7KJLN1D');
+    </script>
 
 
     <style>
@@ -43,9 +56,9 @@
         <div class="container py-4">
             <header class="pb-3 mb-4 border-bottom">
                 <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-                    
+
                     <span class="fs-4 fw-bold">Moving Streams <small class="fw-normal">Your favorite Tool Kit</small></span>
-                    
+
                 </a>
             </header>
 
@@ -53,7 +66,7 @@
                 <div class="container-fluid py-5">
                     <h1 class="display-6 fw-bold">Image Processing, Convert Files, Webpages & more</h1>
                     <p class="col-md-8 fs-5">Convert web page content to full image. </p>
-                    <small>  More tools are coming soon. </small>
+                    <small> More tools are coming soon. </small>
                 </div>
             </div>
 
@@ -65,7 +78,7 @@
                         <a href="/convert-webpage-content-to-full-image-by-using-webpage-url" class="btn btn-outline-light" type="button">Go to Webpage to Image Tool</a>
                     </div>
                 </div>
-                
+
             </div>
 
             <footer class="pt-3 mt-4 text-muted border-top">
