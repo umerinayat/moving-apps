@@ -20,8 +20,8 @@ class BrowsershotController extends Controller
             $savedImg = time() . '_img.png';
 
             $img = Browsershot::url( $url )
-                ->setNodeBinary('/root/.nvm/versions/node/v14.17.1/bin/node')
-                ->setNpmBinary('/root/.nvm/versions/node/v14.17.1/bin/npm')
+                ->setNodeBinary('/root/.nvm/versions/node/v14.17.1/bin/')
+                ->setNpmBinary('/root/.nvm/versions/node/v14.17.1/bin/')
                 ->timeout(120)
                 ->fullPage()
                 ->screenshot();
