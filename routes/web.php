@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BrowsershotController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::post('/webpage-to-image', [BrowsershotController::class, 'generateImageFromWebUrl']);
+Route::get('/download/{fileName}', [BrowsershotController::class, 'download']);
+
