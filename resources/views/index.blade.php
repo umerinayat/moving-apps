@@ -8,8 +8,17 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('img/site.webmanifest') }}">
+
+    <meta name="description" content="Image Processing, Convert Files, Webpages & more | Convert web page content to full image.">
+    <meta name="keywords" content="webpage to image, png, jpeg, image processing, convert files, pdf, word, ms word, office, water mark, overlay, image, url, processing, ppt, doc, power point, ai, machine learning">
 
     <title>Moving Streams - Tool Kit | Convert Web Page Content to Full Image</title>
+
 
     <style>
         .bd-placeholder-img {
