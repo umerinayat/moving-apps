@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('img/site.webmanifest') }}">
 
-    <meta name="description" content="Image Processing, Convert Files, Webpages & more | Convert web page content to full image.">
+    <meta name="description" content="Download webpage as an image, convert webpage to full image Using web page URL you can convert the content of the page into the Full Image, download it and share with other peoples.">
     <meta name="keywords" content="webpage to image, png, jpeg, image processing, convert files, pdf, word, ms word, office, water mark, overlay, image, url, processing, ppt, doc, power point, ai, machine learning">
 
     <title>Moving Streams - Tool Kit | Convert Web Page Content to Full Image</title>

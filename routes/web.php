@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BrowsershotController;
+use App\Http\Controllers\ImageProcessingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,4 +25,9 @@ Route::get('/convert-webpage-content-to-full-image-by-using-webpage-url', functi
 
 Route::post('/webpage-to-image', [BrowsershotController::class, 'generateImageFromWebUrl']);
 Route::get('/download/{fileName}', [BrowsershotController::class, 'download']);
+
+
+// Image processing 
+Route::post('/image/resize', [ImageProcessingController::class, 'resize']);
+
 
