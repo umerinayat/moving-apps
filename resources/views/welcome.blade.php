@@ -14,10 +14,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('img/site.webmanifest') }}">
 
-    <meta name="description" content="Download webpage as an image, convert webpage to full image Using web page URL you can convert the content of the page into the Full Image, download it and share with other peoples.">
-    <meta name="keywords" content="webpage to image, png, jpeg, image processing, convert files, pdf, word, ms word, office, water mark, overlay, image, url, processing, ppt, doc, power point, ai, machine learning">
+    <meta name="description" content="Download Web Page as an Image, convert web page to full image using web page URL you can convert the content of the page into the Full Image, download it and share with other peoples. You will get the full scrolling content of the web page in the image.">
+    <meta name="keywords" content="batch, web, page, download, png, jpeg, image-processing, online, webpage, pdf, url, image, convert, jpg, full, ai, machine-learning, learning, machine, moving, streams, moving-streams, movingstreams.com">
 
-    <title>Download web page as an image | Convert Web Page Content to Full Image</title>
+    <title>Download web page as an image | Online free web page to image download</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-56G7KJLN1D"></script>
@@ -115,7 +115,7 @@
                             </div>
                         </button>
 
-                        <a id="downlodBtn" class="w-100 btn btn btn-light mt-3" href="download" style="display: none;">
+                        <a id="downlodBtn" class="w-100 btn btn btn-primary mt-3" href="download" style="display: none;">
                             Download
                         </a>
 

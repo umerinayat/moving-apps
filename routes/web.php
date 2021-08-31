@@ -28,6 +28,9 @@ Route::get('/download/{fileName}', [BrowsershotController::class, 'download']);
 
 
 // Image processing 
+Route::get('/resize-and-scale-your-image-to-different-sizes', [ImageProcessingController::class, 'index']);
 Route::post('/image/resize', [ImageProcessingController::class, 'resize']);
+
+
 
 
