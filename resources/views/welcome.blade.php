@@ -127,8 +127,8 @@
             </div>
             <div class="row mt-4">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <p>
+                    <div class="col-sm-4">
+                        <p class="p-4 text-start">
                             Download Web Page as an Image, convert web page to full image using web page URL you can convert the content of the page into the Full Image, download it and share with other peoples. You will get the full scrolling content of the web page in the image.
                         </p>
                     </div>
