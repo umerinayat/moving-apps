@@ -98,8 +98,8 @@
             <div class="row">
                 <div class="col-sm-4">
                     <form id="form" class="form-signin text-center mt-5">
-                        <h1 class="h3 mb-3 fw-normal">Convert Web Page Content to Full Image, Enter Your Webpage URL.
-                        </h1>
+                        <p class="h3 mb-3 fw-normal">Convert Web Page Content to Full Image, Enter Your Webpage URL.
+                    </p>
 
                         <div class="form-floating">
                             <input type="text" class="form-control" id="urlInput" name="url" placeholder="example.com">
@@ -123,6 +123,15 @@
                 </div>
                 <div class="col">
                     <img id="image" style="display: none;" src="" alt="webpage content to image, png, jpeg">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                            Download Web Page as an Image, convert web page to full image using web page URL you can convert the content of the page into the Full Image, download it and share with other peoples. You will get the full scrolling content of the web page in the image.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
