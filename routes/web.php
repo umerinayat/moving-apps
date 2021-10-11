@@ -15,6 +15,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get('/home', function () {
+    return view('client.index');
+});
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
 Route::get('/', function () {
     return view('index');
 });

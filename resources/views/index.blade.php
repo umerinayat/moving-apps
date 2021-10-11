@@ -62,6 +62,17 @@
                 </a>
             </header>
 
+            <div class="row align-items-md-stretch mb-4">
+                <div class="col-md-12">
+                    <div class="h-100 p-5 text-white bg-success rounded-3">
+                        <h2>Random Chat With Peoples</h2>
+                        <p>Chat with randomly connected peoples and make new friends. When ever somebody leaves the chat, you will keep automatically connected with new users.</p>
+                        <a href="http://movingstreams.com/random-chat" class="btn btn-outline-light" type="button">Go to Random Chat Box</a>
+                    </div>
+                </div>
+
+            </div>
+
             <div class="row align-items-md-stretch">
                 <div class="col-md-6">
                     <div class="h-100 p-5 text-white bg-dark rounded-3">
@@ -80,6 +91,8 @@
                 </div>
 
             </div>
+
+            
 
             <div class="p-5 mt-3 mb-4 bg-light rounded-3">
                 <div class="container-fluid py-5">

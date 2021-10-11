@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.m-icon {
+  display: none;
+}
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 100vh;
+  box-shadow: 10px 0 5px -2px #888;
+  transition: all 0.3s;
+}
+#aside .main-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 8px;
+}
+#aside .main-logo h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  align-self: center;
+  margin-bottom: 8px;
+}
+#aside .main-logo h4 {
+  align-self: center;
+}
+#aside .main-menu {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  background-color: #ffebeb;
+}
+#aside .main-menu-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  flex-grow: 1;
+  background-color: #f7f2f2;
+}
+#aside .menu-item {
+  border: 1px solid #927373;
+  display: flex;
+  padding: 14px 0px;
+  padding-left: 14px;
+  cursor: pointer;
+  background-color: #3d3434;
+  color: #fff;
+}
+
+.close-sidebar {
+  flex-shrink: 18;
+}
+.close-sidebar .menu-item {
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.open-sidebar {
+  flex-shrink: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#top-bar {
+  z-index: 200;
+  display: flex;
+  flex-direction: row;
+  background-color: #3d3434;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+#top-bar #toggle-sidebar {
+  font-size: 19px;
+  color: #fff;
+  align-self: center;
+  cursor: pointer;
+  margin-left: 8px;
+}
